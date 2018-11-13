@@ -16,20 +16,36 @@ body {
 
 .el1 {
     background: rgba(255, 154, 72, 0.5);
+    /* grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: header;
+    grid-row-end: body-start; */
     grid-area: header;
 }
 
 .el2 {
     background: rgba(255, 0, 0, 0.5);
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: body-start;
+    grid-row-end: footer; */
     grid-area: aside;
 }
 
 .el3 {
     background: rgba(0, 128, 0, 0.5);
+    /* grid-column-start: 2;
+    grid-column-end: -1;
+    grid-row-start: body-start;
+    grid-row-end: footer; */
     grid-area: main;
 }
 
 .el4 {
     background: rgba(0, 4, 255, 0.5);
+    /* grid-column-start: 1;
+    grid-column-end: -1;
+    grid-row-start: footer;
+    grid-row-end: -1; */
     grid-area: footer;
 }
